@@ -12,7 +12,7 @@ URL:            http://freedesktop.org/wiki/Software/gummiboot
 # ./configure
 # make distcheck
 Source0:        %{name}-%{version}.tar.xz
-BuildRequires:  gnu-efi-devel
+BuildRequires:  gnu-efi
 BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(blkid)
 BuildRequires:  pkgconfig(libxslt)
