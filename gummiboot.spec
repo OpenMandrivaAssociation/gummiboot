@@ -2,7 +2,7 @@ Name:           gummiboot
 Version:        38
 Release:        1
 Summary:        Simple EFI Boot Manager
-Group:          System/Boot and Init
+Group:          System/Configuration/Boot and Init
 ExclusiveArch:  x86_64
 License:        LGPLv2+
 URL:            http://freedesktop.org/wiki/Software/gummiboot
