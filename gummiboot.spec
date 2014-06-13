@@ -1,6 +1,6 @@
 Name:           gummiboot
 Version:        38
-Release:        1
+Release:        2
 Summary:        Simple EFI Boot Manager
 Group:          System/Configuration/Boot and Init
 ExclusiveArch:  x86_64
