@@ -1,6 +1,6 @@
 Name:           gummiboot
-Version:        38
-Release:        4
+Version:        45
+Release:        1
 Summary:        Simple EFI Boot Manager
 Group:          System/Configuration/Boot and Init
 ExclusiveArch:  x86_64
@@ -35,6 +35,7 @@ to reside on the ESP.
 %setup -q
 
 %build
+export CC=gcc
 %configure  --libexecdir=%{_prefix}/lib
 %make
 
