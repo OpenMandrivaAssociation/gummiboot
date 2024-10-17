@@ -5,7 +5,7 @@ Summary:        Simple EFI Boot Manager
 Group:          System/Configuration/Boot and Init
 ExclusiveArch:  x86_64
 License:        LGPLv2+
-URL:            http://freedesktop.org/wiki/Software/gummiboot
+URL:            https://freedesktop.org/wiki/Software/gummiboot
 # git clone git://anongit.freedesktop.org/gummiboot
 # cd gummiboot/
 # ./autogen
