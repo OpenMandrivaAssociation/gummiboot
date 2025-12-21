@@ -12,6 +12,11 @@ URL:            https://freedesktop.org/wiki/Software/gummiboot
 # ./configure
 # make distcheck
 Source0:        %{name}-%{version}.tar.xz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  gnu-efi
 BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(blkid)
